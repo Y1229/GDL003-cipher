@@ -9,21 +9,30 @@
        <div id="root">
       <!-- Bienvenida-->
          <h1>Cipher</h1>
-         <h1>"Bienvenido a Cipher te ayudaremos a codificar y decodificar tus secretos."</h1>
+         <h2>"Bienvenido a Cipher te ayudaremos a codificar y decodificar tus secretos."</h2>
 
       </div>
     <!--Div para escribir mensaje-->
-    <div class="mensaje" id="mensaje">
+    <div class="message">
 
         <input type="mensaje" id="mensaje" placeholder="Escribe el mensaje que quieras Codificar o Decodificar">
 
     </div>
     <!--Botones-->
-    <div class="">
+    <div class="botones">
          <input type="button" name="" onclick="" value="Codificar" >
          <input type="button" name="" onclick="" value="Decodificar">
 
     </div>
+
+    <!--Div de segunda pantalla-->
+    <div class="firstScreen">
+        <h2>Tu mensaje secreto dice: </h2>
+      <!--llamar mensaje codificado de js-->
+        <input type="button" name="deCode" value="Decodificar">
+        <input type="button" name="home" value="Inicio">
+    </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
