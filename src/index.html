@@ -14,10 +14,10 @@
               <h3>1.-Ingresar el mensaje que se quiere codificar o decodificar.<br> 2.- Ingresar el numero de espacios que se desea recorrer </h3>
       </div>
     <!--Div para escribir mensaje-->
-    <div id="message">
+    <div id="start">
 
-        <input id="message" type="message" style="width:500px; height:30px;" placeholder="Escribe el mensaje que quieras Codificar o Decodificar">
-        <input id="ofSet"type="text" style="width:30px; height:30px;" name="offset" value="">
+        <input id="message" type="text" style="width:500px; height:30px;" placeholder="Escribe el mensaje que quieras Codificar o Decodificar">
+        <input id="offSet"type="number" style="width:40px; height:30px;" name="ofset" value="">
 
     <!--Botones-->
          <input id="enCode"type="button" name="" onclick="" value="Codificar"  >
@@ -26,15 +26,15 @@
     </div>
 
     <!--Div de segunda pantalla-->
-    <div id="firstScreen">
+    <div id="firstScreen" style="display:none";>
         <h2>Tu mensaje  esta codificado y listo para que lo envies: </h2>
       <!--llamar la funcion de codificado del js-->
-        <input type="button" name="decode" value="Decodificar">
+        <input type="button" name="copy" value="Copiar">
         <input type="button" name="home" value="Inicio">
     </div>
 
 <!--Div de la segunda pantalla-->
-    <div id="secondScreen">
+    <div id="secondScreen" style="display:none">
          <h2>Tu mensaje decodificado dice: </h2>
           <!--llama la funcion para decodificar del js-->
          <input type="button" name="coCode" value="Responder">
