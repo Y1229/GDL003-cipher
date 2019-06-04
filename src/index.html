@@ -10,18 +10,18 @@
       <!-- Bienvenida-->
          <h1>Cipher</h1>
          <h2>"Bienvenido a Cipher te ayudaremos a codificar y decodificar tus secretos."</h2>
-
+         <h2>Instrucciones para poder usar Cipher :</h2>
+              <h3>1.-Ingresar el mensaje que se quiere codificar o decodificar.<br> 2.- Ingresar el numero de espacios que se desea recorrer </h3>
       </div>
     <!--Div para escribir mensaje-->
-    <div class="message">
+    <div id="message">
 
-        <input type="mensaje" id="mensaje" placeholder="Escribe el mensaje que quieras Codificar o Decodificar">
+        <input id="message" type="message" style="width:500px; height:30px;" placeholder="Escribe el mensaje que quieras Codificar o Decodificar">
+        <input id="ofSet"type="text" style="width:30px; height:30px;" name="offset" value="">
 
-    </div>
     <!--Botones-->
-    <div class="botones">
-         <input type="button" name="" onclick="" value="Codificar" >
-         <input type="button" name="" onclick="" value="Decodificar">
+         <input id="enCode"type="button" name="" onclick="" value="Codificar"  >
+         <input id="deCode"type="button" name="" onclick="" value="Decodificar">
 
     </div>
 
@@ -29,7 +29,7 @@
     <div id="firstScreen">
         <h2>Tu mensaje  esta codificado y listo para que lo envies: </h2>
       <!--llamar la funcion de codificado del js-->
-        <input type="button" name="deCode" value="Decodificar">
+        <input type="button" name="decode" value="Decodificar">
         <input type="button" name="home" value="Inicio">
     </div>
 
