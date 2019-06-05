@@ -1,11 +1,16 @@
-#root{
+
+*{
+  background-color: violet;
+  }
+  #root{
   text-align: center;
 }
-#message{
-  text-align: center;
+#start{
+text-align: center;
 }
 #firstScreen{
   text-align: center;
+
 }
 #secondScreen{
   text-align: center;
